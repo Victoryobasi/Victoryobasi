@@ -1,4 +1,5 @@
-<h1 align="center">PROFILE My name is Victory Oguchiluru Obasi, A web developer, I am from imo state Nigeria but currently residing in abuja. I am currently learning languages on programming like: HTML, API, CSS, PYTHON AND JavaScript.</h1>
+<h1 align="center">PROFILE:
+  My name is Victory Oguchiluru Obasi, A web developer, I am from imo state Nigeria but currently residing in abuja. I am currently learning languages on programming like: HTML, API, CSS, PYTHON AND JavaScript.</h1>
 <h3 align="center">"Turning Passion Into Programming Excellence" Having classes with the best institution in abuja, nigeria. ZION COMPUTER COLLEGE.</h3>
 
 - 🌱 I’m currently learning **on HTML, CSS, JavaScript, Ajax, API**
