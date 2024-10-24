@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 150px;
+}
+.myform {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    width: fit-content;
+}
+.name {
+    display: block;
+    width: 400px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+}
+.email {
+    display: block;
+    width: 400px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+}
+.day {
+    display: inline-block;
+    width: 160px;
+    margin-right: 4px;
+}
+.month{
+    display: inline-block;
+    width: 160px;
+}
+.year{
+    display: inline-block;
+    width: 160px;
+    margin-bottom: 4px;
+}
+.btn{
+    display: block;
+    width: 400px;
+    cursor: pointer;
+    
+}

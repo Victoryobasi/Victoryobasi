@@ -1,0 +1,41 @@
+body{
+    border: 2px solid;
+    color: black;
+    background-color: gray;
+    margin: 200px;
+    border-radius: 30px;
+    border-block-width: 10px;
+    border-color: green;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border-block-color: blue;
+div .h{
+    text-align: right;
+    font-style: italic;
+    line-height: 10px;
+    text-align-last: right;
+    font-size: large;
+    }
+    
+div .hm{
+    font-style: italic;
+    line-height: 0px;
+    font-size: large;
+}
+div .hmm{
+    padding-left: 100px;
+    font-size: larger;
+    font-style: italic;
+    line-height: 0;
+}
+div .hmmm{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 1px 1px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 0px;
+}

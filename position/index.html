@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+main{
+    background-color: white;
+    width: 550px;
+    margin: 40px auto;
+    border: 2px solid grey;
+    border-radius: 1px;
+    position: relative;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 2px 5px black;
+    
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 1.5px solid red;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    box-shadow: 10px 5px black;
+}
+
+
+#circle1{
+  
+}
+
+#circle2{
+    left: 40%;
+    
+}
+
+#circle3{
+    top: 40%;
+    left: 25%;
+}
+
+#web {
+    font-size: 18px;
+    position: absolute;
+    left: 46%;
+    bottom: 52%;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="circle" id="circle1"><span>HTML</span></div>
+        <div class="circle" id="circle2"><span>CSS</span></div>
+        <div class="circle" id="circle3"><span>JS</span></div>
+        <span id="web">Web</span>
+    </main>
+</body>
+</html>

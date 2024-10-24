@@ -1,0 +1,43 @@
+`body {
+    background-color: rgb(252, 218, 94);
+    padding: 250px;
+}
+.frame {
+    background-color: white;
+    border: 1px solid black;
+    padding: 25px;
+    width: 33%;
+    height: 505px;
+    border-radius: 20px;
+    border-bottom: 6px solid;
+    border-right: 8px solid;
+    border-radius: 20px;
+    }
+    .h {
+        background-color:  rgb(252, 218, 94);
+        width: 125px;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .hh {
+        
+    }
+    .hm {
+        font-size: 18px;
+    }
+    .hmm {
+        font-size: larger;
+    }
+    .hmmm {
+        line-height: 8px;
+        font-size: 19px;
+    }
+    .type {
+       display: flex;
+       gap: 10px;
+       text-align: left;
+       line-height: 10px;
+    }
+    .text {
+        font-size: larger;
+    }

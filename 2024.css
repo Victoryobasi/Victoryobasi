@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div {
+    border: 2px solid;
+    margin: 30px;
+    height: 80px;
+    width: 100px;
+}
+.relative {
+    position: relative;
+    left: 200px;
+}
+.absolute {
+    position: absolute;
+    left: 300px;
+    top: 225px;
+}
+.fixed {
+    position: fixed;
+    left: 30px;
+    bottom: 40px;
+    }
+    .sticky {
+        position: sticky;
+        left: 500px;
+        top: 200px;
+    }

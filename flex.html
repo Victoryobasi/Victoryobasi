@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        ul{
+            color: white;
+            background-color: burlywood;
+            list-style: none;
+            display: flex;
+            width: 75%;
+            justify-items: center;
+            justify-content: space-around;
+        }
+        header{
+            padding: 10px 15px;
+            background-color: brown;
+            color: white;
+        }
+        .align-items {
+            margin: 20px;
+            background-color: aqua;
+            display: flex;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+        }
+        span {
+            background-color: white;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 150px 100px;
+            gap: 10px;
+        }
+        section div{
+            border-radius: 10px;
+            background-color: purple;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Age</li>
+            <li>Class</li>
+            <li>Name</li>
+            <li>Contact Us</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <main>
+        <div class="align-items">
+            <span></span>
+        </div>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
+</body>
+</html>
