@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+      .container{
+        display: flex;
+        /* gap: 20px; */
+        width: 80%;
+      }
+      .div1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .card{
+        background-color: hsl(31, 66%, 93%);
+        width: 50%;
+        height: 25%;
+        margin: 0px auto;
+      }
+      .card img{
+        width: 50%;
+      }
+      .card-orange{
+        background-color: orange;
+      }
+      .div2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .title2{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: hsl(256, 67%, 59%);
+        height: 220px;
+        border-radius: 10px;
+        align-content: center;
+        text-align: center;
+        padding: 30px;
+      }
+      .title2 img{
+        width: 150px;
+      }
+      .title2 h1{
+        width: 70%;
+        margin: 0px auto;
+        font-size: 38px;
+        color: hsl(0, 0%, 100%);
+        opacity: 0.9;
+      }
+      span{
+        color: hsl(39, 100%, 71%);
+      }
+      .title2 p{
+        color: hsl(0, 0%, 100%);
+        font-size: 18px;
+        opacity: 0.8;
+      }
+      .light-purole{
+        background-color: hsl(254, 88%, 90%);
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        object-fit: cover;
+      }
+      .light-purole img{
+        width: 350px;
+        object-fit: contain;
+        
+      }
+      .light-purole h3{
+        font-size: 30px;
+      }
+      .card-purple{
+        display: flex;
+        gap: 30px;
+      }
+      .subtitle{
+        display: flex;
+        flex-direction: column;
+      }
+      .div3{
+        display: flex;
+        gap: 20px;
+      }
+      .card-light-purple{
+        background-color: red;
+        width: 23%;
+        flex-wrap: wrap;
+        height: 250px;
+      }
+      .lightpurple{
+        display: flex;
+        gap: 30px;
+      }
+      .consistent{
+        background-color: bisque;
+        width: 300px;
+        padding: 20px;
+        height: 275px;
+      }
+      .consistent img{
+        height: 200px;
+        object-fit: fill;
+      }
+      .consistent h2{
+        width: 40%;
+      }
+      .cardpurple{
+        display: flex;
+        align-items: center;
+      }
+      .div3{
+        position: absolute;
+        top: 43%;
+        left: 49%;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="div1">
+        <div class="card">
+          <div class="title1"><h2>Create and schedule content <span style="color: #635bff;">quicker.</span></h2></div>
+          <img src="./assets/images/illustration-create-post.webp" alt="">
+        </div>
+        <div class="card-orange">
+          <h1>Write your content using AI.</h1>
+          <img src="./assets/images/illustration-ai-content.webp" alt="">
+        </div>
+      </div>
+      <div class="div2">
+        <div class="card-purple">
+          <div class="title2">
+            <h1>Social Media <span> 10x</span> Faster with AI</h1>
+            <div>
+              <img src="./assets/images/illustration-five-stars.webp" alt="">
+              <p>Over 4,000 5-star reviews</p>
+            </div>
+          </div>
+          <div class="light-purole">
+            <h3>Schedule to social media.</h3>
+            <img src="./assets/images/illustration-schedule-posts.webp" alt="">
+            <p>Optimize post timings to publish content at the perfect time for your audience.</p>
+          </div>
+        </div>
+        <div class="div3">
+          <div class="card-light-purple">
+            <img src="./assets/images/illustration-multiple-platforms.webp" alt="" style="width: 300px;">
+            <h3>Manage multiple accounts and platforms.</h3>
+          </div>
+          <div class="consistent">
+            <h2>Maintain a consistent posting schedule.</h2>
+            <img src="./assets/images/illustration-consistent-schedule.webp" alt="">
+          </div>
+        </div>
+        <div class="lightpurple">
+          <div>
+            <h2>>56%</h2>
+            <p>faster audience growth</p>
+            <img src="./assets/images/illustration-audience-growth.webp" alt="">
+          </div>
+          <div class="cardpurple">
+            <img src="./assets/images/illustration-grow-followers.webp" alt="">
+            <h2>Grow followers with non-stop content.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
